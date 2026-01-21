@@ -19,7 +19,7 @@ This script processes raw Excel transaction files and produces a cleaned, aggreg
    - Reads Excel files into a DataFrame.
    - Cleans string columns (trims spaces, replaces `NaN`/`None`).
    - Normalizes date columns.
-   - Drops unnecessary columns and filters out *November* transactions (replace with months if you need to remove).
+   - Drops unnecessary columns and filters out *Unwanted Month* transactions (replace with months you need to remove).
 
 3. **Remove Reversals ⚠️**
    - Detects reversal transactions (failed payments, payment reversals).
