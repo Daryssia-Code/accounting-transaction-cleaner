@@ -1,5 +1,9 @@
 # accounting-transaction-cleaner
-This a python script to help clean and aggregate bank transactions for personal and business accounting use, optimizing for further summary/accounting in excel. You are welcome to clone this repo and change code for your personal use.
+This Python script cleans and aggregates bank transaction data for personal and business accounting, optimized for downstream summarization and analysis in Excel.
+
+You’re welcome to clone this repository and adapt the code for your own use. For best results, format your transactions with the following columns:
+
+Transaction Date, Processed Date, Code, Type, To/From Account Number, Details, Particulars, Amount, Balance
 
 # Transaction Cleaning Script 🧹
 
